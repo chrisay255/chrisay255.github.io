@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(108, 108, 213);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: black; 
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke
+}
+main {
+    text-align: center;
+    color: whitesmoke
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke
+}
+
+section {
+    margin: 5vw;
+    padding: 5vw;
+    border-radius: 20px;
+    background-color: rgb(108, 108, 213);
+}
+
+nav ul li {
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 1px;
+    list-style: none;
+    text-align: left;
+    text-decoration-line: underline;    
+    text-orientation: sideways;
+}
+
+
+input[type=checkbox]:checked ~ section {
+    display: none;
+}
