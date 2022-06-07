@@ -47,3 +47,4 @@ nav ul li {
 input[type=checkbox]:checked ~ section {
     display: none;
 }
+
